@@ -10,6 +10,7 @@
 This is a repository for my computer vision class, where I am tasked to build a vision based fall detection system using tracking. The method of tracking used is optical flow, and rank pool is applied to essentially 'compress' optical flow images into a single image/vector to lighten computational burden. Using the EfficientNetV2 architecture, this project goes in depth into video analysis methods, as well as its strengths and weaknesses. The flow of the project can be seen in fig. 1 below. 
 
 ![Project FlowChart](docs/flowchart.png?raw=true "Project FlowChart")
+
 *fig 1.0: project flowchart*
 
 ---
@@ -37,7 +38,6 @@ This project utilizes Transfer Learning for its modeling. The EfficientNetV2S pr
 ![EfficientNetV2S](docs/eff.jpg?raw=true "EfficientNetV2S")
 
 *fig 3.0: EfficientNetV2 base architecture*
-
 [src](https://www.sciencedirect.com/science/article/pii/S1076633222006328)
 
 After loading the pre-trained model, multiple convolution, max pooling, and global average pooling layers are added, with dense layers as output. This is to ensure custom dataset specialization. 
