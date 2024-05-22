@@ -7,7 +7,7 @@
 
 ---
 
-This is a repository for my computer vision class, where I am tasked to build a vision based fall detection system using tracking. The method of tracking used is optical flow, and rank pool is applied to essentially 'compress' optical flow images into a single image/vector to lighten computational burden. Using the EfficientNetV2 architecture, this project goes in depth into video analysis methods, as well as its strengths and weaknesses. The flow of the project can be seen in fig. 1 below. 
+This is a repository for my computer vision class assignment, where I am tasked to build a vision based fall detection system using tracking. The method of tracking used is optical flow, and rank pool is applied to essentially 'compress' optical flow images into a single image/vector to lighten computational burden. Using the EfficientNetV2 architecture, this project goes in depth into video analysis methods, as well as its strengths and weaknesses. The flow of the project can be seen in fig. 1 below. 
 
 ![Project FlowChart](docs/flowchart.png?raw=true "Project FlowChart")
 
